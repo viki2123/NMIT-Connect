@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Connected_control">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="84.0" layoutX="241.0" stroke="WHITE" strokeType="INSIDE" width="359.0" />
+      <Button fx:id="message" layoutX="315.0" layoutY="236.0" mnemonicParsing="false" onAction="#message111" prefHeight="33.0" prefWidth="198.0" style="-fx-background-color: #0353A4;" text="Message" textFill="WHITE" />
+      <Button fx:id="group_chat" layoutX="314.0" layoutY="302.0" mnemonicParsing="false" onAction="#groupchat" prefHeight="34.0" prefWidth="202.0" style="-fx-background-color: #0353A4;" text="Group Chat" textFill="WHITE" />
+      <Label alignment="TOP_LEFT" layoutX="353.0" layoutY="30.0" text="Connected">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="185.0" prefHeight="22.0" prefWidth="75.0" text="Tharunya">
+         <font>
+            <Font name="Bodoni MT" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="88.0" fitWidth="90.0" layoutX="368.0" layoutY="97.0">
+         <image>
+            <Image url="@../../../../Desktop/user.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0353a4" height="465.0" stroke="#0353a4" strokeType="INSIDE" width="256.0" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="21.0" layoutY="58.0">
+         <image>
+            <Image url="@../../../../Desktop/uesr1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="86.0" layoutY="23.0" prefHeight="26.0" prefWidth="92.0" text="User Profile" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="update" layoutX="75.0" layoutY="334.0" mnemonicParsing="false" onAction="#update" prefHeight="25.0" prefWidth="92.0" text="Update" />
+      <Button fx:id="sign_out" layoutX="21.0" layoutY="403.0" mnemonicParsing="false" onAction="#signout" text="Sign out" />
+      <Label layoutX="90.0" layoutY="223.0" prefHeight="18.0" prefWidth="84.0" text="Vikitha H" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="connections" layoutX="66.0" layoutY="280.0" mnemonicParsing="false" onAction="#connection1" prefHeight="25.0" prefWidth="110.0" text="Connections" />
+   </children>
+</Pane>

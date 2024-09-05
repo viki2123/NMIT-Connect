@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ConnectionList_control">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="71.0" layoutX="255.0" stroke="WHITE" strokeType="INSIDE" width="346.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0353a4" height="71.0" layoutX="280.0" layoutY="103.0" opacity="0.27" stroke="BLACK" strokeType="INSIDE" width="296.0" />
+      <Label layoutX="340.0" layoutY="18.0" prefHeight="35.0" prefWidth="184.0" text="CONNECTIONS">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="126.0" text="Varsha">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="mes11" layoutX="470.0" layoutY="126.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: #0353A4;" text="Message" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0353a4" height="71.0" layoutX="281.0" layoutY="348.0" opacity="0.27" stroke="BLACK" strokeType="INSIDE" width="296.0" />
+      <Label layoutX="380.0" layoutY="371.0" text="Vinutha">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="mes44" layoutX="471.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: #0353A4;" text="Message" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0353a4" height="71.0" layoutX="281.0" layoutY="266.0" opacity="0.27" stroke="BLACK" strokeType="INSIDE" width="296.0" />
+      <Label layoutX="380.0" layoutY="289.0" text="Tharunya">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="mes33" layoutX="471.0" layoutY="289.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: #0353A4;" text="Message" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0353a4" height="71.0" layoutX="281.0" layoutY="185.0" opacity="0.27" stroke="BLACK" strokeType="INSIDE" width="296.0" />
+      <Label layoutX="380.0" layoutY="208.0" text="Sree">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="mes22" layoutX="471.0" layoutY="208.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: #0353A4;" text="Message" textFill="WHITE" />
+      <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="294.0" layoutY="103.0">
+         <image>
+            <Image url="@../../../../Desktop/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="292.0" layoutY="348.0">
+         <image>
+            <Image url="@../../../../Desktop/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="292.0" layoutY="266.0">
+         <image>
+            <Image url="@../../../../Desktop/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="71.0" fitWidth="71.0" layoutX="292.0" layoutY="185.0">
+         <image>
+            <Image url="@../../../../Desktop/user.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0353a4" height="462.0" stroke="#0353a4" strokeType="INSIDE" width="256.0" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="21.0" layoutY="38.0">
+         <image>
+            <Image url="@../../../../Desktop/uesr1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="90.0" layoutY="208.0" prefHeight="18.0" prefWidth="84.0" text="Vikitha H" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="23.0" prefHeight="26.0" prefWidth="92.0" text="User Profile" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="update" layoutX="68.0" layoutY="289.0" mnemonicParsing="false" onAction="#update" prefHeight="25.0" prefWidth="110.0" text="Update" />
+      <Button fx:id="sign_out" layoutX="21.0" layoutY="371.0" mnemonicParsing="false" onAction="#signout" text="Sign out" />
+   </children>
+</Pane>

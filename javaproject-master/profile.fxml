@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Profie_connect">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="78.0" layoutX="259.0" stroke="WHITE" strokeType="INSIDE" width="342.0" />
+      <Button fx:id="DISMISS1" layoutX="347.0" layoutY="218.0" mnemonicParsing="false" onAction="#DISMISS" style="-fx-background-color: #0353A4;" text="DISMISS" textFill="WHITE" />
+      <Button fx:id="CHAT1" layoutX="456.0" layoutY="218.0" mnemonicParsing="false" onAction="#CHAT" style="-fx-background-color: #0353A4;" text="CONNECT" textFill="WHITE" />
+      <Label layoutX="386.0" layoutY="26.0" text="PROFILE">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="406.0" layoutY="183.0" text="Aditya">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="346.0" text="Study:3rd Year">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="308.0" text="Branch:CSE">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="291.0" layoutY="274.0" text="Nitte Meenakshi Institute of Tecnology">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="362.0" layoutY="379.0" text="Domain:AI and ML">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="88.0" fitWidth="90.0" layoutX="383.0" layoutY="107.0">
+         <image>
+            <Image url="@../../../../Desktop/user.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0353a4" height="506.0" layoutX="-4.0" layoutY="-42.0" stroke="#0353a4" strokeType="INSIDE" width="265.0" />
+      <Label layoutX="81.0" layoutY="433.0" prefHeight="26.0" prefWidth="96.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="205.0" prefHeight="18.0" prefWidth="84.0" text="Vikitha H" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="connections" layoutX="84.0" layoutY="268.0" mnemonicParsing="false" onAction="#connection1" text="Connections" />
+      <Button fx:id="update" layoutX="97.0" layoutY="321.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <Button fx:id="sign_out" layoutX="23.0" layoutY="408.0" mnemonicParsing="false" onAction="#signout" text="Sign out" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="24.0" layoutY="40.0">
+         <image>
+            <Image url="@../../../../Desktop/uesr1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="27.0" prefHeight="26.0" prefWidth="92.0" text="User Profile" textFill="WHITE">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
